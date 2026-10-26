@@ -1,0 +1,191 @@
+
+/* 
+    Created on : 25 oct 2026, 14:47:07
+    Author     : erika
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2d3250;
+}
+
+header{
+    height: 100px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px 0px 0px 0px
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px ;
+    color: white;
+    /*background-color: red;*/
+    padding: 30px;
+}
+
+main {
+    /*background-color:#424769 ;*/
+    width: 80vw;
+    /*border: aqua 1px solid;*/
+    margin:20px 10vw ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.personajes-add {
+    background-color: #424769;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3), 0px 10px 40px rgba(0, 0, 0, 0.15);
+    width: 600px;
+}
+
+.personajes-add form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.personajes-add form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.personajes-add form div label {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.personajes-add form div input{
+    color: white;
+    height: 50px;
+    width: 100%;
+    background-color: #676f9d;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 0px 10px;
+    border-left: #f9b17a solid 5px ;
+}
+
+button {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid 0px whitesmoke;
+    border-radius: 10px;
+    color: #424769;
+    background-color:#f9b17a ;
+    box-shadow: 0 0 15px #f9b17a, 0 0 30px rgba(249, 177, 122, 0.4);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+button:hover {
+    box-shadow: 0 0 20px #f9b17a, 0 0 40px rgba(249, 177, 122, 0.8);
+    transform: translateY(-5px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /*border:solid 1px red;*/
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3), 0px 10px 40px rgba(0, 0, 0, 0.15);
+   background-color: #424769;
+    border-radius: 20px;
+    gap: 30px;
+    
+    padding: 50px;
+}
+
+.container h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-top: 0px;
+}
+
+.personajes-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.personaje img{
+    width: 350px;
+    height: 350px;
+}
+
+.personaje{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3), 0px 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+.personaje h3 {
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.personaje p {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.personaje p span {
+    padding: 10px;
+    font-size: 14px;
+    color: #ccccff;
+}
